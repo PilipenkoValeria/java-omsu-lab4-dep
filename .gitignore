@@ -1,0 +1,4 @@
+# Project exclude paths
+/Function/target/
+/MaxRoot/target/
+/Quadratic/target/
