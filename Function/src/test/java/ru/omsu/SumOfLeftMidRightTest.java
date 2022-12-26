@@ -7,9 +7,9 @@ import static org.junit.Assert.assertEquals;
 public class SumOfLeftMidRightTest {
     @Test
     public void LinearFunctionSumOfLeftMidRightTest() {
-        LinearFunction linearFunction = new LinearFunction(-1000, 1000, 2, 4);
+        LinearFunction linearFunction = new LinearFunction(0, 10, 2, 4);
         SumOfLeftMidRight<LinearFunction> linearFunctionSumOfLeftMidRight = new SumOfLeftMidRight<>();
-        assertEquals(2012, linearFunctionSumOfLeftMidRight.calculate(linearFunction), 0.001);
+        assertEquals(42, linearFunctionSumOfLeftMidRight.calculate(linearFunction), 0.001);
     }
 
     @Test
